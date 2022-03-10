@@ -1,0 +1,86 @@
+# Automated text messaging
+
+# Import relevant modules
+import time
+import pyautogui
+import random
+pyautogui.FAILSAFE = False
+from colorama import Fore, Back, Style
+
+map
+
+
+
+
+import time,os,sys
+
+def typingPrint(text):
+  for character in text:
+    sys.stdout.write(character)
+    sys.stdout.flush()
+    time.sleep(0.05)
+  
+def typingInput(text):
+  for character in text:
+    sys.stdout.write(character)
+    sys.stdout.flush()
+    time.sleep(0.05)
+  value = input()  
+  return value  
+  
+def clearScreen():
+  os.system("clear")
+    
+typingPrint("Hello user...\n")
+time.sleep(1)
+
+
+
+
+
+
+print('                                                                                           ')
+print('                                                                                           ')
+print('                                   #################################################       ')
+print('                                   #                                               #       ')
+print('                                   #           ICBM V2      ( Spamming Tool )      #       ')
+print('                                   #                                               #       ')
+print('                                   #                  Version 3.0                  #       ')
+print('                                   #                                               #       ')
+print('                                   #           Modified by : Intel13400            #       ')
+print('                                   #                                               #       ')
+print('                                   #       Only for Cheesy Purposes !!             #       ')
+print('                                   #                                               #       ')
+print('                                   #################################################       ')
+print('\n\n')
+
+
+
+
+
+
+number = 0
+password = input("Enter Missile Launch Code: ")
+if password == "39471" or "410582":
+    typingPrint("\n\n\n")
+    typingPrint("Missile Launch in Progress\n") 
+    print("")
+    typingPrint("Grabify Tracking Code: JUUNNH\n")
+
+    typingPrint("Find their IP address: https://www.iplocation.net/ \n")
+    
+    def SendMessage():
+        time.sleep(8)
+        while True:
+            for n in range(100):
+                number = + 1
+                text = open('boom.txt')
+                for each_line in text:
+                    pyautogui.typewrite(each_line)
+                    pyautogui.press('enter')
+                    pyautogui.press('space')
+                   
+                    
+
+
+SendMessage()
