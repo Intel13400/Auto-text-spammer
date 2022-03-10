@@ -5,23 +5,28 @@ some code sampled from "mohinparamasivam / Email-Bomber" and "code-of-the-future
 Use your mouse and click in a text field where you want to spam.
 
 
-#System Requirements
+# Minimum System Requirements
 Minimum System Requirments: 
 
 Windows 10, 11 or newest Mac OS
+
 At least 4gb of ram
+
 Dual-core CPU
 
-Recomended System Requirements:
+# Recomended System Requirements:
 
 Windows 10, 11 or newest Mac OS
+
 At least 8gb of ram
+
 Quad-Core CPU
 
-#Development
+# Development
+
 Visual Studio Code or Community
 
-#Clone
+# Clone
 $ git clone --recursive https://github.com/Intel13400/Auto-text-spammer.git
 
 
