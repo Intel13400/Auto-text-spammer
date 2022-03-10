@@ -6,7 +6,6 @@ Use your mouse and click in a text field where you want to spam.
 
 
 # Minimum System Requirements
-Minimum System Requirments: 
 
 Windows 10, 11
 
