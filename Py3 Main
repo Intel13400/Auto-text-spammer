@@ -10,7 +10,7 @@ from colorama import Fore, Back, Style
 map
 
 
-
+#typing print affect
 
 import time,os,sys
 
@@ -57,7 +57,7 @@ print('\n\n')
 
 
 
-
+# Missile Launch code system (still in development)
 
 number = 0
 password = input("Enter Missile Launch Code: ")
@@ -66,7 +66,8 @@ if password == "39471" or "410582":
     typingPrint("Missile Launch in Progress\n") 
     print("")
     
-    
+    #spam system(Still in BETA)
+   
     def SendMessage():
         time.sleep(8)
         while True:
