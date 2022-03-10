@@ -1,7 +1,0 @@
-Modules Requirements:
-
-  Open windows command prompt or Mac OS terminal and type in:
-    "pip install pyatougui"
-
-Once it has downlaoded you are ready to use the code
-
