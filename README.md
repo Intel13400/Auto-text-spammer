@@ -23,7 +23,7 @@ Quad-Core CPU
 
 # Development
 
-Visual Studio Code or Community
+Visual Studio Community
 
 # Clone
 $ git clone --recursive https://github.com/Intel13400/Auto-text-spammer.git
