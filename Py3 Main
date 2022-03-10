@@ -4,8 +4,10 @@
 import time
 import pyautogui
 import random
+import tkinter as tk
 pyautogui.FAILSAFE = False
 from colorama import Fore, Back, Style
+
 
 map
 
@@ -18,13 +20,13 @@ def typingPrint(text):
   for character in text:
     sys.stdout.write(character)
     sys.stdout.flush()
-    time.sleep(0.05)
+    time.sleep(0.09)
   
 def typingInput(text):
   for character in text:
     sys.stdout.write(character)
     sys.stdout.flush()
-    time.sleep(0.05)
+    time.sleep(0.04)
   value = input()  
   return value  
   
@@ -50,7 +52,7 @@ print('                                   #                  Version 3.0        
 print('                                   #                                               #       ')
 print('                                   #           Modified by : Intel13400            #       ')
 print('                                   #                                               #       ')
-print('                                   #       Only for Cheesy Purposes !!             #       ')
+print('                                   #       Only for Educational Purposes !!        #       ')
 print('                                   #                                               #       ')
 print('                                   #################################################       ')
 print('\n\n')
@@ -58,15 +60,18 @@ print('\n\n')
 
 
 
-#Launch Password/Code System (Still in development)
+#Launch Password/Code System (Still in BETA)
 
 number = 0
-password = input("Enter Missile Launch Code: ")
+password = typingInput("Enter Missile Launch Code: ")
 if password == "39471" or "410582":
     typingPrint("\n\n\n")
-    typingPrint("Missile Launch in Progress\n") 
-    print("")
 
+    typingPrint("Countdown to launch\n")
+    typingPrint("T Minus\n")
+    
+
+    
     
 
 
@@ -74,15 +79,22 @@ if password == "39471" or "410582":
     #Missile Launch System (Still In BETA)
     
     def SendMessage():
-        time.sleep(8)
-        while True:
-            for n in range(100):
-                number = + 1
-                text = open('boom.txt')
-                for each_line in text:
-                    pyautogui.typewrite(each_line)
-                    pyautogui.press('enter')
-                    pyautogui.press('space')
+        print("3\n")
+        time.sleep(1)
+        print("2\n")
+        time.sleep(1)
+        print("1\n")
+        time.sleep(1)
+        typingPrint("Missile Launch in Progress\n") 
+        for n in range(10000):
+            time.sleep(0.000000000001)
+            number = + 1
+            text = open('boom.txt')
+            for each_line in text:
+                pyautogui.typewrite(each_line)
+                pyautogui.press('enter')
+                pyautogui.press('space')
+                
                    
                     
 
