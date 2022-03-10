@@ -65,9 +65,7 @@ if password == "39471" or "410582":
     typingPrint("\n\n\n")
     typingPrint("Missile Launch in Progress\n") 
     print("")
-    typingPrint("Grabify Tracking Code: JUUNNH\n")
-
-    typingPrint("Find their IP address: https://www.iplocation.net/ \n")
+    
     
     def SendMessage():
         time.sleep(8)
