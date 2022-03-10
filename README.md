@@ -8,7 +8,7 @@ Use your mouse and click in a text field where you want to spam.
 # Minimum System Requirements
 Minimum System Requirments: 
 
-Windows 10, 11 or newest Mac OS
+Windows 10, 11
 
 At least 4gb of ram
 
@@ -16,7 +16,7 @@ Dual-core CPU
 
 # Recomended System Requirements:
 
-Windows 10, 11 or newest Mac OS
+Windows 10, 11
 
 At least 8gb of ram
 
@@ -28,6 +28,13 @@ Visual Studio Code or Community
 
 # Clone
 $ git clone --recursive https://github.com/Intel13400/Auto-text-spammer.git
+
+# Modules Requirements:
+
+  Open windows command prompt and type in:
+    "pip install pyatougui"
+
+Once it has downlaoded you are ready to use the code
 
 
 
