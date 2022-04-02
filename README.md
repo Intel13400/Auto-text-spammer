@@ -13,7 +13,7 @@ At least 4gb of ram
 
 Dual-core CPU
 
-# Recomended System Requirements:
+# Recommended System Requirements:
 
 Windows 10, 11
 
