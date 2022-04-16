@@ -3,10 +3,10 @@
 # Import relevant modules
 import time
 import pyautogui
-import random
+import keyboard
 import tkinter as tk
 pyautogui.FAILSAFE = False
-from colorama import Fore, Back, Style
+import subprocess
 
 
 map
@@ -40,63 +40,93 @@ time.sleep(1)
 
 
 
-#You can edit this if you want. You can change it to your name but is not required
 
-print('                                                                                           ')
-print('                                                                                           ')
-print('                                   #################################################       ')
-print('                                   #                                               #       ')
-print('                                   #           ICBM V2      ( Spamming Tool )      #       ')
-print('                                   #                                               #       ')
-print('                                   #                  Version 3.0                  #       ')
-print('                                   #                                               #       ')
-print('                                   #           Modified by : Intel13400            #       ')
-print('                                   #                                               #       ')
-print('                                   #       Only for Educational Purposes !!        #       ')
-print('                                   #                                               #       ')
-print('                                   #################################################       ')
-print('\n\n')
 
+def artI():
+
+    #You can edit this if you want. You can change it to your name but is not required
+
+    print('                                                                                           ')
+    print('                                                                                           ')
+    print('                                   #################################################       ')
+    print('                                   #                                               #       ')
+    print('                                   #          EBR 3         ( Spamming Tool )      #       ')
+    print('                                   #                                               #       ')
+    print('                                   #                  Version 1.7                  #       ')
+    print('                                   #                                               #       ')
+    print('                                   #           Modified by : Intel13400            #       ')
+    print('                                   #                                               #       ')
+    print('                                   #       Only for Educational Purposes !!        #       ')
+    print('                                   #                                               #       ')
+    print('                                   #################################################       ')
+    print('\n\n')
+
+artI()
+from art import *
+tprint("EBR3  Spam  Weapon_")
 
 
 
 #Launch Password/Code System (Still in BETA)
 
-number = 0
-password = typingInput("Enter Missile Launch Code: ")
-if password == "39471" or "410582":
-    typingPrint("\n\n\n")
+def launchC():
+    number = 0
+    password = typingInput("Press Enter Key: ")
+    if password == "39471" or "410582":
+        typingPrint("\n\n\n") 
 
-    typingPrint("Countdown to launch\n")
-    typingPrint("T Minus\n")
+        print("Press the 'p' key on your keyboard four times to pause the launch\n")
+
+        typingPrint("Countdown to launch\n")
+        typingPrint("T Minus\n")
     
 
     
     
-
+  
 
 
     #Missile Launch System (Still In BETA)
     
-    def SendMessage():
-        print("3\n")
-        time.sleep(1)
-        print("2\n")
-        time.sleep(1)
-        print("1\n")
-        time.sleep(1)
-        typingPrint("Missile Launch in Progress\n") 
-        for n in range(10000):
-            time.sleep(0.000000000001)
-            number = + 1
-            text = open('boom.txt')
-            for each_line in text:
-                pyautogui.typewrite(each_line)
-                pyautogui.press('enter')
-                pyautogui.press('space')
+def SendMessage():
+
+    print("3\n")
+    time.sleep(1)
+    print("2\n")
+    time.sleep(1)
+    print("1\n")
+    time.sleep(1)
+    typingPrint("Spam in Progress\n") 
+       
+
+
+    for n in range(10000):
+        time.sleep(0.000000000000000000000000001)
+
+        text = open('boom.txt')
+        for each_line in text:  
+            pyautogui.typewrite(each_line)
+            pyautogui.press('enter')
+            import keyboard  # using module keyboard
+                
+            try:  # used try so that if user pressed other than the given key error will not be shown
+                if keyboard.is_pressed('P'):  # if key 'p' is pressed 
+                    print('Code Paused!')
+                    wait = input("Press Enter to continue")
+                    time.sleep(3.5000000000000000000000)
+                    break  # finishing the loop
+            except:
+                break  # if user pressed a key other than the given key the loop will break
+
+
+                
+                
+                
                 
                    
                     
 
-
+launchC()
 SendMessage()
+
+   
