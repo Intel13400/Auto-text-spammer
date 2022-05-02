@@ -7,7 +7,7 @@ import keyboard
 import tkinter as tk
 pyautogui.FAILSAFE = False
 import subprocess
-
+import os
 
 map
 
@@ -37,7 +37,8 @@ typingPrint("Hello user...\n")
 time.sleep(1)
 
 
-
+def clear():
+    print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 
 
 
@@ -68,6 +69,15 @@ tprint("EBR3  Spam  Weapon_")
 
 
 #Launch Password/Code System (Still in BETA)
+import requests
+
+url = "https://www.google.com/"
+timeout = 5
+try:
+    request = requests.get(url, timeout=timeout)
+    print("Connected to the Internet\n\n")
+except (requests.ConnectionError, requests.Timeout) as exception:
+    print("No internet connection.\n\n")
 
 def launchC():
     number = 0
@@ -96,8 +106,12 @@ def SendMessage():
     time.sleep(1)
     print("1\n")
     time.sleep(1)
-    typingPrint("Spam in Progress\n") 
-       
+    typingPrint("Spam in Progress\n\n\n")
+    print("") 
+    print("") 
+    print("") 
+    print("") 
+    print("") 
 
 
     for n in range(10000):
@@ -105,8 +119,12 @@ def SendMessage():
 
         text = open('boom.txt')
         for each_line in text:  
+            time.sleep(.0001)
             pyautogui.typewrite(each_line)
             pyautogui.press('enter')
+            
+
+
             import keyboard  # using module keyboard
                 
             try:  # used try so that if user pressed other than the given key error will not be shown
@@ -118,15 +136,22 @@ def SendMessage():
             except:
                 break  # if user pressed a key other than the given key the loop will break
 
+            
+                
+                
+import mariadb
 
-                
-                
-                
-                
+def is_connected(connection):
+    try:
+        connection.ping()
+    except:
+        return False
+    return True        
                    
                     
 
 launchC()
 SendMessage()
+
 
    
