@@ -30,10 +30,14 @@ $ git clone --recursive https://github.com/Intel13400/Auto-text-spammer.git
 
 # Modules Requirements:
 
-  Open windows command prompt and type in:
-    "pip install pyatougui"
-
-Once it has downlaoded you are ready to use the code
+import time
+import pyautogui
+import keyboard
+import tkinter as tk
+pyautogui.FAILSAFE = False
+import subprocess
+import os
+importmariadb
 
 
 
