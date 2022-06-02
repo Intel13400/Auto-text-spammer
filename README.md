@@ -44,7 +44,7 @@ import subprocess
 
 import os
 
-importmariadb
+import mariadb
 
 
 
