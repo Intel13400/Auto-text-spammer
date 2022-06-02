@@ -62,7 +62,7 @@ def artI():
     print('                                   #################################################       ')
     print('\n\n')
 
-artI()
+artI()   
 from art import *
 tprint("EBR3  Spam  Weapon_")
 
@@ -106,12 +106,8 @@ def SendMessage():
     time.sleep(1)
     print("1\n")
     time.sleep(1)
-    typingPrint("Spam in Progress\n\n\n")
-    print("") 
-    print("") 
-    print("") 
-    print("") 
-    print("") 
+    typingPrint("Spam in Progress\n") 
+       
 
 
     for n in range(10000):
@@ -119,9 +115,33 @@ def SendMessage():
 
         text = open('boom.txt')
         for each_line in text:  
-            time.sleep(.0001)
-            pyautogui.typewrite(each_line)
+            pyautogui.write(each_line)
+            time.sleep(0.000000000000000000000000001)
             pyautogui.press('enter')
+            pass
+            pyautogui.typewrite(each_line)
+            time.sleep(0.000000000000000000000000001)
+            pyautogui.press('enter')
+            pass
+            pyautogui.write(each_line)
+            time.sleep(0.000000000000000000000000001)
+            pyautogui.press('enter')
+            pass
+            pyautogui.typewrite(each_line)
+            time.sleep(0.000000000000000000000000001)
+            pyautogui.press('enter')
+            pass
+            pyautogui.write(each_line)
+            time.sleep(0.000000000000000000000000001)
+            pyautogui.press('enter')
+            pass
+            pyautogui.typewrite(each_line)
+            time.sleep(0.000000000000000000000000001)
+            pyautogui.press('enter')
+            pyautogui.write(each_line)
+            pass
+            pyautogui.press('enter')
+            
             
 
 
@@ -136,6 +156,8 @@ def SendMessage():
             except:
                 break  # if user pressed a key other than the given key the loop will break
 
+            
+ 
             
                 
                 
@@ -152,6 +174,11 @@ def is_connected(connection):
 
 launchC()
 SendMessage()
+
+#Send a message to a number
+#use a web browser to send a message to a number
+
+
 
 
    
