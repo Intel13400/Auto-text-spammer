@@ -31,12 +31,19 @@ $ git clone --recursive https://github.com/Intel13400/Auto-text-spammer.git
 # Modules Requirements:
 
 import time
+
 import pyautogui
+
 import keyboard
+
 import tkinter as tk
+
 pyautogui.FAILSAFE = False
+
 import subprocess
+
 import os
+
 importmariadb
 
 
